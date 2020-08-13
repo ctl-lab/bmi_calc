@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta  http-equiv="X-UA-Compatible"  content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>BMI calculator</title>
 </head>
 <body>
-    bla
+    <div id="container">
+        <h1>BMI Calculator</h1>
+        <img src="https://www.cdc.gov/healthyweight/images/assessing/bmi-adult-fb-600x315.jpg" alt="body mass index graphically explained">
+        <br>
+        <br>
+        <input type="text" id="height" placeholder="Your height in cm">
+        <input type="text" id="weight" placeholder="Your weight in Kg">
+        <button onclick="calculateBMI()" id="Calculate">Calculate</button>
+        <div id="results"></div>
+        <script src="./assets/js/bmiCalculator.js"></script>
+        <script src="./assets/js/bmiUI.js"></script>
+    </div>
 </body>
 </html>
