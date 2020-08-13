@@ -13,4 +13,6 @@ const getBMIClassification = (value) => {
     else if (value < 30) {
         return 'Overweight'
     }
+    else 
+    return 'Extremely obese'
 }
